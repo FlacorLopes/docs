@@ -1,34 +1,35 @@
 ---
-nav-title: Welcome to NativeScript
-title: Welcome
-description: Meet NativeScript - an open-source framework for the cross-platform development of truly native apps.
+nav-title: Bem vindo ao NativeScript
+title: Bem Vindo!
+description: Conheça Native Script - Um framework de código aberto para desenvolvimento multi plataforma de apps nativos (de verdade!).
 position: 1
 ---
 
-# Welcome to NativeScript
+# Bem vindo ao NativeScript
 
-*Are you a hybrid app developer looking for a way to create truly native apps? Are you a native app developer wondering how to expand the scope of his apps to the other popular platforms? Or perhaps you are a web developer searching for a way to transfer your existing skills to the world of mobile development?*
+* Você é um desenvolvedor de apps híbridos querendo criar apps nativos de verdade? Já é um desenvolvedor nativo buscando expandir o escopo de seus apps pra outras plataformas populares? Ou talvez você seja um desenvolvedor web querendo transferir suas habilidades pra o mundo do desenvolvimento mobile?*
 
-NativeScript lets you develop truly native apps for iOS and Android from a single code base of JavaScript or TypeScript, XML and CSS. NativeScript takes your cross-platform code and translates it into the language that your target platform speaks.
+NativeScript lhe permite desenvolver apps nativos para iOS e Android a partir de um único código JavaScript ou TypeScript, XML e CSS. NativeScript traduz seu código multi-plataforma para a linguagem que sua plataforma alvo suporta. 
 
-## How Does It Work
+## Como Funciona
 
-Develop your business logic with **JavaScript** or **TypeScript**, design and style your user interface using **XML** and **CSS** and let NativeScript translate your single-source application code into truly native apps for iOS or Android.
+Desenvolva a lógica de negócio com **JavaScript** ou **TypeScript**, crie o design e estilo da interface de usuário usando **XML** E **CSS** e deixe NativeScript traduzir o código de seu app em código nativo para iOS ou Android.
 
-You can develop for **Android 4.2 or later** and **iOS 7.1 or later**.
+Você pode desenvolver para **Android 4.2 ou superior** e **iOS 7.1 ou superior**.
 
-![architecture diagram](https://docs.nativescript.org/img/architecture.png "architecture diagram")
+![diagrama da arquitetura](https://docs.nativescript.org/img/architecture.png "architecture diagram")
 
-1. Write your **application code** once using the **NativeScript modules** and the **NativeScript runtimes**.<br/>The modules expose the native device and platform capabilities of Android and iOS in a consistent manner and let you access them via non-platform-specific code.<br/>The modules let you access some native capabilities via platform-specific JavaScript code.
-1. Customize your app with platform-specific assets such as icons and splash screens.
-1. Build your app.<br/>When you build your app, the **NativeScript runtime** translates your non-platform specific code to the native language of your target platform and the **NativeScript tools** use the native platform SDKs and tools to build a native application package.
-1. Run your cross-platform native apps in the native emulators, on real devices or distribute them to testers and end users.
+1. Escreva o **código de seu app** uma só vez usando os **Módulos NativeScript** e os **Runtimes NativeScript**.<br/>Os módulos expõem as funcionalidades das plataformas iOS e Android de maneira consistente e permite-lhe acessá-las via código independente de plataforma.<br />Os módulos permitem acessar algumas funcionalidades nativas via código JavaScript para plataforma específica.
+1. Customize seu app com recursos específicos a plataforma como ícones e telas de abertura.
+1. Construa (<i>build</i>) seu app.<br/>Quando você faz o build, o **Runtime do NativeScript** traduz seu código independete de plataforma para a linguagem nativa de sua plataforma alvo e as **Ferramentas NativeScript** usam os SDKs de cada plataforma para gerar um pacote de aplicativo (apk ou ipa)
+1. Execute seu app nativo em emuladores ou diretamente nos dispositivos ou distibua-os pra testes e susuários finais.
 
-## What's Next
+## Depois
 
 Start exploring the documentation resources for NativeScript.
+Comece explorando a documentação do NativeScript
 
-* [Getting Started](getting-started.md)
+* [Iniciando(getting-started.md)
 * [API Reference](ApiReference/application/README.md)
 * [App: Management](application-management.md)
 * [App: Architecture and Navigation](navigation.md)
@@ -46,6 +47,7 @@ Start exploring the documentation resources for NativeScript.
 * [UI: Animation](animation.md)
 
 If you need even more native capabilities than the NativeScript modules provide, you can expand your development with any of the following options.
+Se ainda assim você precisar de outras funcionalidades nativas não providas pelos módulos NativeScript, você pode expandir seu desenvolvimento com uma das seguintes opções.
 
 * [iOS-Specific JavaScript Development](runtimes/ios/Overview.md)
 * [Android-Specific JavaScript Development](runtimes/android/overview.md)
