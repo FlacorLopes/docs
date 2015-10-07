@@ -1,6 +1,6 @@
 ## NativeScript - Guia de Introdução
 
-Bem Vindo ao Guia de Introdução ao [NativeScript](https://nativescript.org) NativeScript. Nesse tutorial você usará NativeScript (um framework JavaScript multi-plataforma para o desenvolvimento de apps nativos) para criar um app para iOS e Android a partir do início.
+Bem Vindo ao Guia de Introdução ao [NativeScript](https://nativescript.org). Nesse tutorial você usará NativeScript (um framework JavaScript multi-plataforma para o desenvolvimento de apps nativos) para criar um app para iOS e Android a partir do início.
 
 > **DICA** Para uma introdução ao NativeScript em vídeo, veja o [Guia Prático no YouTube](https://www.youtube.com/watch?v=rsCT5fpES4Q).
 
