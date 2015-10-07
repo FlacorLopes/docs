@@ -46,7 +46,6 @@ Comece explorando a documentação do NativeScript
 * [UI: Styling](styling.md)
 * [UI: Animation](animation.md)
 
-If you need even more native capabilities than the NativeScript modules provide, you can expand your development with any of the following options.
 Se ainda assim você precisar de outras funcionalidades nativas não providas pelos módulos NativeScript, você pode expandir seu desenvolvimento com uma das seguintes opções.
 
 * [iOS-Specific JavaScript Development](runtimes/ios/Overview.md)
