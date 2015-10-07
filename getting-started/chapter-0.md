@@ -1,25 +1,25 @@
-## NativeScript Getting Started Guide
+## NativeScript - Guia de Introdução
 
-Welcome to the [NativeScript](https://nativescript.org) getting started guide. In this tutorial you'll use NativeScript, a cross-platform JavaScript framework for building native mobile apps, to build an iOS and Android app from scratch.
+Bem Vindo ao Guia de Introdução ao [NativeScript](https://nativescript.org) NativeScript. Nesse tutorial você usará NativeScript (um framework JavaScript multi-plataforma para o desenvolvimento de apps nativos) para criar um app para iOS e Android a partir do início.
 
-> **TIP:** For a video introduction to NativeScript, see the [getting started guide on YouTube](https://www.youtube.com/watch?v=rsCT5fpES4Q).
+> **DICA** Para uma introdução ao NativeScript em vídeo, veja o [Guia Prático no YouTube](https://www.youtube.com/watch?v=rsCT5fpES4Q).
 
-### What you're building
+### O que você vai fazer
 
-This guide will walk you through building [Groceries](https://github.com/NativeScript/sample-Groceries), a groceries management app that does the following things:
+Este guia lhe ajudará através do desenvolvimento de um app chamado [Groceries](https://github.com/NativeScript/sample-Groceries), um app gerenciador de mantimentos que faz as seguintes coisas:
 
-- Connects to an existing RESTful service.
-- Provides user registration and login.
-- Lets authenticated users add and delete groceries from a list.
-- Runs cross-platform (iOS and Android).
+- Conecta-se a um serviço RESTful existente.
+- Fornece registro de usuários e login.
+- Permite usuários autenticados adicionar e deletar mantimentos de uma lista.
+- Roda em várias plataformas (iOS e Android).
 
-If you follow along to the end, here's what the finished app will look like on iOS:
+Se você for até o fim, a versão final do app parecerá assim no iOS:
 
 ![login](img/cli-getting-started/chapter0/ios/1.png)
 ![register](img/cli-getting-started/chapter0/ios/2.png)
 ![list](img/cli-getting-started/chapter0/ios/3.png)
 
-And here's what the app will look like on Android:
+E assim no android:
 
 ![](img/cli-getting-started/chapter0/android/1.png)
 ![](img/cli-getting-started/chapter0/android/2.png)
