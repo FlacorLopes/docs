@@ -29,7 +29,7 @@ Você pode desenvolver para **Android 4.2 ou superior** e **iOS 7.1 ou superior*
 Start exploring the documentation resources for NativeScript.
 Comece explorando a documentação do NativeScript
 
-* [Iniciando(getting-started.md)
+* [Guia Prático](getting-started.md)
 * [API Reference](ApiReference/application/README.md)
 * [App: Management](application-management.md)
 * [App: Architecture and Navigation](navigation.md)
