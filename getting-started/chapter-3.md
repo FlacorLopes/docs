@@ -1,32 +1,45 @@
 ## Application logic
+## Lógica do Aplicativo
 
 In this chapter, you'll learn how to add JavaScript logic to your NativeScript app, and you'll be doing so using the base pattern on which the NativeScript framework is built, MVVM, or "model view view model". Here's what those words mean:
+Nesse capítulo você aprenderá a adicionar lógica a seu app NativeScript em JavaScript e fará isso usando o padrão no qual NativeScipt é construído, MVVM, ou "model view view model". Essas palavras significam:
 
 - **Model**: The model defines and represents the data. Separating the model from the various views that might use it allows for code reuse.
+- **Model**: O <i>model</i> define e representa os dados. Separar o model das várias <i>views</i> que podem utilizá-lo permite reuso de código.
+
 - **View**: The view represents the UI, which in NativeScript is written in XML. The view is often data-bound to the view model so that changes made to the view model in JavaScript instantly trigger visual changes to UI components.
+- **View**: A <i>view</i> representa a UI, que em NativeScript é escrita em XML. A view é normalmente linkada dinâmicamente ao <i>view model</i>. Assim, as mudanças feitas no view model em JavaScript instantaneamente dispara alterações visuais nos componentes da UI.
+
 - **View Model**: The view model contains the application logic (often including the model), and exposes the data to the view. NativeScript provides a module called 'Observable', which facilitates creating a view model object that can be bound to the view.
+- **View Model**: O <i>view model</i> contém a lógica do aplicativo (muitas vezes incluindo o model), e expõe os dados para a view. NativeScript fornece um módulo chamado 'Observable', que facilita a criação de um objeto view model que pode ser linkado à view.
 
 The biggest benefit of separating models, views, and view models, is that you are able to use two-way data binding; that is, changes to data in the model get instantly reflected on the view, and vice versa. The other big benefit is code reuse, as you're often able to reuse models and view models across views.
+O grande benefício de separar models, views e view models é que você pode linkar os dados em "mão dupla", isso é, mudanças nos dados feitas no model se refletem instantaneamente nas views e vice versa. Outra grande vantagem é o reuso do código, visto que você poderá reusar models e view models em suas views. 
 
 In Groceries, so far you've only touched the view (`login.xml`), and in this chapter you'll be creating a view model. To do so, we first need to introduce one other type of file: the code-behind.
+No Groceries, você ainda só editou a view (`login.xml`), e nesse capítulo você criará o view model. Pra isso, primeiro precisamos introduzir um outro tipo de arquivo: o code-behind (algo como: código base)
 
-### The code-behind
+### O code-behind
 
 In NativeScript a code-behind file is a JavaScript file that shares the same name as the view. For example, the login page's view is named `login.xml`, so its code-behind file is named `login.js`. The code-behind file is where you put all code that interacts with the view itself.
+Em NativeScript um code-behind é um JavaScript nomeado `login.js`. O arquivo code-behind é onde você põe todo o código que interage com a view em si.
 
 Let's look at what you can do in a code-behind file with a simple example.
+Vamos ver o que você pode fazer em um arquivo code-behind com um exemplo simples.
 
 <h4 class="exercise-start">
-    <b>Exercise</b>: Construct the login view model
+    <b>Exercício</b>: Contrua o view model do login
 </h4>
 
 Open `login.xml` and add a `loaded` attribute to the `<Page>` UI component at the top. It should look like this:
+Abra `login.xml` e adicione um atributi `loaded` ao componente UI `<Page>` no topo. Ele deve ficar como:
 
 ``` XML
 <Page loaded="loaded">
 ```
 
 Next, paste the code below in `app/views/login/login.js` to define a `loaded()` function:
+Depois, cole o código abaixo em `app/views/login/login.js` pra definir a funcção `loaded`:
 
 ``` JavaScript
 exports.loaded = function() {
